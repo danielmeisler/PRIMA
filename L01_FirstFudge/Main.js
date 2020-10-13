@@ -22,4 +22,4 @@ var L01_FirstFudge;
         L01_FirstFudge.viewport.draw();
     }
 })(L01_FirstFudge || (L01_FirstFudge = {}));
-//# sourceMappingURL=Main.js.map 
+//# sourceMappingURL=Main.js.map
