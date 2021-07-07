@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>PhysicsGame</title>
+  <meta charset="utf-8" />
+  <!--Load FUDGE-->
+  <script type="text/javascript" src="../FudgePhysics/OimoPhysics.js">  </script>
+  <script type="text/javascript" src="../FudgeCore/FudgeCore.js">  </script>
+  <script type="text/javascript" src="../FudgeAid/FudgeAid.js">  </script>
+  <script type="text/javascript" src="../FudgeUserInterface/FudgeUserInterface.js">  </script>
+  <!--Link stylesheet and internal resources-->
+  <link rel="stylesheet" href="PhysicsGame.css" />
+  <link type="resources" src="PhysicsGame.json" />
+
+  <script type="text/javascript" src="Hud.js"></script>
+  <script type="text/javascript" src="PhysicsGame.js"></script>
+  <script type="text/javascript" src="ComponentScriptBall.js" editor="true"></script>
+
+</head>
+
+<body>
+  <!--Dialog shown at startup only-->
+  <dialog>
+    <h1>PhysicsGame</h1>
+    <p>click to start</p>
+  </dialog>
+  <!--Canvas for FUDGE to render to-->
+  <canvas class="fullscreen"></canvas>
+
+  <!-- VUI -->
+  <div>
+    <input type=number key="hits" min="0" max="10"/>
+  </div>
+</body>
+
+</html>
